@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -879,7 +879,7 @@
 <wire x1="6.35" y1="127" x2="6.35" y2="133.35" width="0.1524" layer="20"/>
 <wire x1="6.35" y1="133.35" x2="31.75" y2="133.35" width="0.1524" layer="20"/>
 <wire x1="31.75" y1="133.35" x2="31.75" y2="127" width="0.1524" layer="20"/>
-<circle x="53.975" y="13.97" radius="2.54" width="0.1524" layer="20"/>
+<circle x="53.975" y="13.97" radius="2.286" width="0.1524" layer="20"/>
 <wire x1="66.1924" y1="17.1704" x2="66.1924" y2="10.8204" width="0.1524" layer="20"/>
 <wire x1="66.1924" y1="10.8204" x2="85.2424" y2="10.8204" width="0.1524" layer="20"/>
 <wire x1="85.2424" y1="10.8204" x2="85.2424" y2="17.1704" width="0.1524" layer="20"/>
@@ -951,7 +951,7 @@
 <wire x1="153.035" y1="40.005" x2="159.385" y2="40.005" width="0.1524" layer="20"/>
 <wire x1="159.385" y1="40.005" x2="159.385" y2="43.18" width="0.1524" layer="20"/>
 <wire x1="159.385" y1="43.18" x2="153.035" y2="43.18" width="0.1524" layer="20"/>
-<circle x="53.975" y="42.545" radius="2.54" width="0.1524" layer="20"/>
+<circle x="53.975" y="42.545" radius="2.286" width="0.1524" layer="20"/>
 <wire x1="66.1924" y1="45.7454" x2="66.1924" y2="39.3954" width="0.1524" layer="20"/>
 <wire x1="66.1924" y1="39.3954" x2="85.2424" y2="39.3954" width="0.1524" layer="20"/>
 <wire x1="85.2424" y1="39.3954" x2="85.2424" y2="45.7454" width="0.1524" layer="20"/>
@@ -1019,7 +1019,7 @@
 <wire x1="174.38878125" y1="64.678559375" x2="216.4588" y2="68.1482" width="0.1524" layer="20"/>
 <wire x1="152.2984" y1="76.4794" x2="236.6518" y2="66.5226" width="0.1524" layer="49"/>
 <wire x1="152.2984" y1="62.7888" x2="236.8042" y2="69.8246" width="0.1524" layer="49"/>
-<circle x="53.975" y="71.12" radius="2.54" width="0.1524" layer="20"/>
+<circle x="53.975" y="71.12" radius="2.286" width="0.1524" layer="20"/>
 <wire x1="66.1924" y1="74.3204" x2="66.1924" y2="67.9704" width="0.1524" layer="49"/>
 <wire x1="66.1924" y1="67.9704" x2="85.2424" y2="67.9704" width="0.1524" layer="49"/>
 <wire x1="85.2424" y1="67.9704" x2="85.2424" y2="74.3204" width="0.1524" layer="49"/>
@@ -1071,7 +1071,7 @@
 <wire x1="174.38878125" y1="93.253559375" x2="216.4588" y2="96.7232" width="0.1524" layer="20"/>
 <wire x1="152.2984" y1="105.0544" x2="236.6518" y2="95.0976" width="0.1524" layer="49"/>
 <wire x1="152.2984" y1="91.3638" x2="236.8042" y2="98.3996" width="0.1524" layer="49"/>
-<circle x="53.975" y="99.695" radius="2.54" width="0.1524" layer="20"/>
+<circle x="53.975" y="99.695" radius="2.286" width="0.1524" layer="20"/>
 <wire x1="66.1924" y1="102.8954" x2="66.1924" y2="96.5454" width="0.1524" layer="49"/>
 <wire x1="66.1924" y1="96.5454" x2="85.2424" y2="96.5454" width="0.1524" layer="20"/>
 <wire x1="85.2424" y1="96.5454" x2="85.2424" y2="102.8954" width="0.1524" layer="49"/>
@@ -1148,18 +1148,18 @@
 <wire x1="17.2542" y1="155.0924" x2="59.0296" y2="155.0924" width="0.1524" layer="20"/>
 <wire x1="8.2042" y1="146.0424" x2="18.2042" y2="136.0424" width="0.1524" layer="20" curve="90"/>
 <wire x1="18.2042" y1="136.0424" x2="59.0296" y2="136.0424" width="0.1524" layer="20"/>
-<circle x="19.05" y="123.825" radius="1.5875" width="0.1524" layer="20"/>
-<circle x="19.05" y="146.05" radius="1.5875" width="0.1524" layer="20"/>
+<circle x="19.05" y="123.825" radius="0.889" width="0.1524" layer="20"/>
+<circle x="19.05" y="146.05" radius="0.889" width="0.1524" layer="20"/>
 <wire x1="113.0046" y1="136.0424" x2="113.0046" y2="155.0924" width="0.1524" layer="20"/>
 <wire x1="62.1792" y1="146.0424" x2="71.2292" y2="155.0924" width="0.1524" layer="20" curve="-90"/>
 <wire x1="71.2292" y1="155.0924" x2="113.0046" y2="155.0924" width="0.1524" layer="20"/>
 <wire x1="62.1792" y1="146.0424" x2="72.1792" y2="136.0424" width="0.1524" layer="20" curve="90"/>
 <wire x1="72.1792" y1="136.0424" x2="113.0046" y2="136.0424" width="0.1524" layer="20"/>
-<circle x="73.025" y="146.05" radius="1.5875" width="0.1524" layer="20"/>
-<circle x="53.975" y="123.825" radius="1.5875" width="0.1524" layer="20"/>
-<circle x="88.9" y="123.825" radius="1.5875" width="0.1524" layer="20"/>
-<circle x="123.825" y="123.825" radius="1.5875" width="0.1524" layer="20"/>
-<circle x="158.75" y="123.825" radius="1.5875" width="0.1524" layer="20"/>
+<circle x="73.025" y="146.05" radius="0.889" width="0.1524" layer="20"/>
+<circle x="53.975" y="123.825" radius="0.889" width="0.1524" layer="20"/>
+<circle x="88.9" y="123.825" radius="0.889" width="0.1524" layer="20"/>
+<circle x="123.825" y="123.825" radius="0.889" width="0.1524" layer="20"/>
+<circle x="158.75" y="123.825" radius="0.889" width="0.1524" layer="20"/>
 </package>
 </packages>
 <symbols>
